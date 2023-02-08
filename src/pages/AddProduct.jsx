@@ -35,6 +35,7 @@ const AddProduct = ({ products, setProducts }) => {
             className="input input-bordered"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
+            required
           />
         </div>
         <div className="form-control">
@@ -47,6 +48,7 @@ const AddProduct = ({ products, setProducts }) => {
             className="input input-bordered"
             value={description}
             onChange={(e) => setDescription(e.target.value)}
+            required
           />
         </div>
         <div className="form-control">
@@ -59,6 +61,7 @@ const AddProduct = ({ products, setProducts }) => {
             className="input input-bordered"
             value={category}
             onChange={(e) => setCategory(e.target.value)}
+            required
           />
         </div>
         <div className="form-control">
@@ -71,6 +74,7 @@ const AddProduct = ({ products, setProducts }) => {
             className="input input-bordered"
             value={price}
             onChange={(e) => setPrice(e.target.value)}
+            required
           />
         </div>
         <div className="form-control">
@@ -83,6 +87,7 @@ const AddProduct = ({ products, setProducts }) => {
             className="input input-bordered"
             value={thumbnail}
             onChange={(e) => setThumbnail(e.target.value)}
+            required
           />
         </div>
         <div className="form-control mt-6">
